@@ -1,0 +1,121 @@
+header{
+    position: sticky;
+    top:0px;    
+}
+nav{
+    background-color:white;
+}
+.nav-btn{
+    background-color: orangered !important;
+    color:white !important;
+    border-radius:10px !important;
+}
+.nav-links>a{
+    text-decoration: none;
+    padding-inline: 10px;
+    color:#212244;
+}
+.search-bar{
+    background-color:#ffffff;
+    border:2px solid #f2f2f2;
+    border-radius:8px;  
+}
+.search-bar>input{
+    border:none;
+    font-size: 13px;
+    width:80%;   
+}
+.hero-section{
+    height:95vh;
+    background-color: lavender;
+}
+#door{
+    color:orangered;
+}
+.hero-para{
+    color:#69697B;
+}
+.hero-btn{
+    background-color: orangered !important;
+    color:white !important;    
+    border-radius: 10px !important;
+}
+.why-best{
+    width:80%;
+    margin: auto;
+    
+}
+.best-para{
+    color:#69697B;
+    font-size: 13px;;
+}
+.best-text{
+    width:25% !important;
+}
+.why-best>img{
+    width:25%;
+    flex: auto;
+}
+.special-recipes{
+    width:80%;
+    box-sizing: border-box !important;
+    height:45vw;
+    margin: auto;
+}
+.special-recipes a{
+    text-decoration: none;
+    font-weight: 600; 
+    padding-inline: 14px !important;
+    color:#69697B
+}
+#fast-food{
+    color: orangered;
+    padding:10px;
+    border-bottom: 2px solid orangered;
+}
+.special-menu{
+    margin-top: 100px !important;
+
+    
+}
+.menu-item{
+    box-sizing: border-box;
+    width:250px;
+    border:2px solid #f2f2f2;
+    border-radius: 15px;
+    margin: auto !important;
+    
+    
+}
+.menu-item>p{
+    color:#69697B !important;
+}
+.menu-item span{
+    color:orangered !important;
+    font-weight: 700;
+}
+
+.menu-btn{
+    border:2px solid orangered !important;
+    color:orangered !important;
+    border-radius: 10px !important;
+    margin-bottom: 25px;
+}
+.noodles{
+    border: none !important;
+    color:white !important;
+    background-color: orangered !important;
+    border-radius: 10px !important;
+    margin-bottom: 15px;
+}
+.download-app{
+    width:80vw;
+    margin:auto;
+}
+.download-img{
+    width:100%;
+}
+.download-img img{
+    display: inline-block;
+    width:100%
+}
