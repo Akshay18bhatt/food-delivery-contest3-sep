@@ -1,6 +1,7 @@
 header{
     position: sticky;
-    top:0px;    
+    top:0px;  
+    z-index:5000;  
 }
 nav{
     background-color:white;
@@ -18,6 +19,7 @@ nav{
 .search-bar{
     background-color:#ffffff;
     border:2px solid #f2f2f2;
+    width: 200px;
     border-radius:8px;  
 }
 .search-bar>input{
@@ -29,11 +31,19 @@ nav{
     height:95vh;
     background-color: lavender;
 }
+
 #door{
     color:orangered;
 }
 .hero-para{
+    
     color:#69697B;
+}
+.hero-img{
+    width:60% !important;
+}
+.hero-img img{
+    width:100%;
 }
 .hero-btn{
     background-color: orangered !important;
@@ -50,17 +60,18 @@ nav{
     font-size: 13px;;
 }
 .best-text{
-    width:25% !important;
+    width:250px !important;
 }
 .why-best>img{
-    width:25%;
-    flex: auto;
+    display: inline-block;
+    width:320px !important;
+    
 }
 .special-recipes{
-    width:80%;
+    width:80% !important;
     box-sizing: border-box !important;
-    height:45vw;
-    margin: auto;
+    height:45vw !important;
+    margin: auto !important;
 }
 .special-recipes a{
     text-decoration: none;
@@ -110,12 +121,149 @@ nav{
 }
 .download-app{
     width:80vw;
+
+    height: 800px;
     margin:auto;
 }
 .download-img{
     width:100%;
+    
 }
 .download-img img{
     display: inline-block;
-    width:100%
+    width:100%;
+    margin-top: 150px;
+}
+.customer-reviews{
+    
+    background-color: #f8f8f8;
+    width:95vw;
+    padding: 50px;
+    margin: auto;
+}
+.customers{
+    width:90%;
+}
+.cust-img{
+    flex:1;
+    box-sizing: border-box !important;
+}
+.cust-quotes{
+    flex:2;
+}
+.cust-img img{
+    width: 80%;
+    
+}
+#saying {
+    color:orangered;
+}
+.footer{
+    width:98vw;
+    margin: auto;
+        
+    background-color: lavender;
+}
+.col-1{
+    margin:50px;
+    flex:2 !important;
+    
+    
+}
+.col-2{
+    flex: 3 !important; 
+    margin: 50px;;
+}
+table{
+    width: 100% ;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:620px){
+    header{
+        position: static !important;
+    }
+    nav{
+
+        display: flex !important;
+        margin-top: 10px !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .nav-search-bar{
+        display:flex !important;
+        flex-direction: column !important;
+        margin-bottom: 20px;
+    }
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    .hero-section{
+        display: flex !important;
+        padding-inline: 30px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+    .hero-section>img{
+        display: block !important;
+
+    }
+    .why-best{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #fast-food{
+        border: none;
+    }
+    
+    .my-table{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: left !important;
+        align-items: left !important;
+    }
+    .col-1{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .col-2{
+        display: flex;
+        justify-content:left !important;
+        align-items: center;
+    }
+    .special-recipes{
+        z-index: 100 !important;
+    }
+    .special-menu{
+        z-index: 50 !important;
+    }
+    .customers{
+        display: flex !important;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+    }
+    .cust-img img{
+        width: 50%;
+        
+    }
+
+    
 }
